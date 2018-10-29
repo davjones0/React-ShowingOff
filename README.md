@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://raw.githubusercontent.com/flexdinesh/react-redux-boilerplate/master/app/components/Header/images/banner.jpg" alt="react redux boilerplate banner" align="center" />
 
 <br />
@@ -104,3 +105,6 @@ These are the things I stripped out from [react-boilerplate](https://github.com/
 ## License
 
 MIT license, Copyright (c) 2018 Dinesh Pandiyan.
+=======
+# React-ShowingOff
+>>>>>>> ee2a0b7f43292f0eed853c2857c77e40357d0556
