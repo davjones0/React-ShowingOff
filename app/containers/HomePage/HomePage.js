@@ -8,6 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import ReposList from 'components/ReposList';
+import ThreeDMap from 'components/3DMap';
 import './style.scss';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
@@ -40,6 +41,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             <p>A minimal <i>React-Redux</i> boilerplate with all the best practices</p>
           </section>
           <section>
+            <ThreeDMap />
             <h2>Try me!</h2>
             <form onSubmit={this.props.onSubmitForm}>
               <label htmlFor="username">

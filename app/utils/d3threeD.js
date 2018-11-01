@@ -2,7 +2,9 @@
 			/* This Source Code Form is subject to the terms of the Mozilla Public
 			 * License, v. 2.0. If a copy of the MPL was not distributed with this file,
 			 * You can obtain one at http://mozilla.org/MPL/2.0/. */
-            export function d3threeD( exports ) {
+			 import * as THREE from 'three';
+
+			 export function d3threeD( exports ) {
 				var DEGS_TO_RADS = Math.PI / 180;
 				var DIGIT_0 = 48, DIGIT_9 = 57, COMMA = 44, SPACE = 32, PERIOD = 46, MINUS = 45;
 				exports.transformSVGPath = function transformSVGPath( pathStr ) {

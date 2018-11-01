@@ -4032,6 +4032,12 @@ gaze@^1.0.0:
   dependencies:
     globule "^1.0.0"
 
+geojson2svg@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/geojson2svg/-/geojson2svg-1.2.3.tgz#dc26384a8faec047228272e97fafcf539c0e13f3"
+  dependencies:
+    multigeojson "~0.0.1"
+
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
@@ -6441,6 +6447,10 @@ ms@2.0.0:
 ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+
+multigeojson@~0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/multigeojson/-/multigeojson-0.0.1.tgz#f2404a80b6ee5a9642abb17db01a9e7f1809ef3e"
 
 multipipe@^0.1.2:
   version "0.1.2"
