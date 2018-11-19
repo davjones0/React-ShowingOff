@@ -41,8 +41,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             <p>A minimal <i>React-Redux</i> boilerplate with all the best practices</p>
           </section>
           <section>
-            <ThreeDMap />
             <h2>Try me!</h2>
+            <ThreeDMap />
             <form onSubmit={this.props.onSubmitForm}>
               <label htmlFor="username">
               Show Github repositories by
